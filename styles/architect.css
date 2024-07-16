@@ -101,6 +101,53 @@
  #feature-color {
     color: #FF900E;
  }
+
+
+
+
+
+
+
+
+
+
+
+ /*card related style*/
+ .description {
+   margin-bottom: 130px;
+   margin-top: 180px;
+ }
+ .card-des{
+   width: 510px;
+   margin-top: 10px;
+ }
+ .card-container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+ }
+ .card {
+   height: 240px;
+   width: 240px;
+   border: 1px solid  #FF900E;
+   border-radius: 8px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ } 
+ .card-number{
+   font-size: 2.8rem;
+   font-weight: 600;
+   margin-top: 10px;
+   margin-bottom: 5px;
+ }
+.card-name {
+   font-weight: 600;
+   font-size: 1.2rem;
+   color: #727272;
+   margin-top: 2px;
+}
+
+
  /*responsive media*/
  @media  screen and (max-width:576px) {
     .navbar, .nav-links,
